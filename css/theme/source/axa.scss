@@ -27,11 +27,20 @@ $selectionBackgroundColor: #134674;
 
 // Fix links so they are not cut off
 .reveal a {
-  line-height: 1.3em;
+    line-height: 1.3em;
 }
 
 .reveal table td {
-  font-size: 95%;
+    font-size: 90%;
+}
+
+.lighten {
+    color: white !important;
+    text-shadow: 2px 2px 4px #000000 !important;
+}
+
+.reveal section img {
+    border: none !important;
 }
 
 // Background generator
